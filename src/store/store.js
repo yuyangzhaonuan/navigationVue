@@ -28,7 +28,7 @@ export default new Vuex.Store({
   },
   actions: {
     showTitles (context) {
-      axios.get('http://localhost:8080/static/demo.json', {})
+      axios.get('http://134.175.89.43:8745/static/demo.json', {})
         .then(function (response) {
           context.commit('firstShow', response.data)
 
