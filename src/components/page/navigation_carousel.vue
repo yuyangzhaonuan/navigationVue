@@ -47,7 +47,7 @@
                 <div>
                   <a :href="data.url"
                      target="_blank">
-                    <Tooltip content="Top Right text"
+                    <Tooltip :content="data.tips"
                              placement="top">
                       <Card style="width:206px;height:90px;margin:6px 0;">
                         <div style="text-align:center">
