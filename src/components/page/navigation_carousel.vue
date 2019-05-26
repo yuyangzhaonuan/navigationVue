@@ -34,8 +34,8 @@
              :key="index"
              :class="item.field"
              :id="item.id">
-          <img src="item.src"
-               alt="">
+          <!-- <img :src="item.src"
+               alt=""> -->
 
           <Divider />
           <div class="row"
